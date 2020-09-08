@@ -1,7 +1,7 @@
 @import "../../constants/colors.scss";
 
 .destinations {
-  margin: 20px 0;
+  margin: 60px 0;
 
   .title {
     font-weight: 600;
@@ -41,7 +41,7 @@
           position: absolute;
           bottom: 0;
           height: 50px;
-          width: 100px;
+          min-width: 100px;
           background-color: white;
           padding: 0 10px;
           border-top-right-radius: 5px;

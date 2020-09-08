@@ -1,6 +1,12 @@
 import React from "react"
 import "../main.scss"
-import { Header, Banner, Trending, FeaturedDestinations } from "../components"
+import {
+  Header,
+  Banner,
+  Trending,
+  FeaturedDestinations,
+  Testimonials,
+} from "../components"
 
 const Home = () => (
   <>
@@ -8,6 +14,7 @@ const Home = () => (
       <Header />
       <Banner />
       <FeaturedDestinations />
+      <Testimonials />
       <Trending />
     </div>
   </>

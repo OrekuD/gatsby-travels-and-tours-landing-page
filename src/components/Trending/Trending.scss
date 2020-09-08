@@ -1,7 +1,7 @@
 @import "../../constants/colors.scss";
 
 .trending {
-  margin: 20px 0;
+  margin: 60px 0;
   .title {
     font-weight: 600;
     font-size: 20px;
@@ -9,7 +9,6 @@
 
   .stories {
     display: flex;
-    // align-items: center;
     flex-wrap: wrap;
 
     .story-wrapper {
@@ -26,7 +25,7 @@
         transition: 0.6s ease all;
 
         &:hover {
-          box-shadow: 0 2.8px 2.8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2.8px 20px rgba(0, 0, 0, 0.15);
         }
 
         img {
