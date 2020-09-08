@@ -3,6 +3,8 @@ import "./Banner.scss"
 import { Circle, Plus } from "../../svgs"
 
 const locations = ["Geneva", "Milan", "Paris"]
+const activities = ["Travelling", "Swimming", "Outdoor games"]
+const grades = ["Grade 1", "Grade 2", "Grade 3"]
 
 const Banner = () => (
   <div className="banner">
@@ -30,20 +32,20 @@ const Banner = () => (
             ))}
           </select>
           <select>
-            <option>Location</option>
-            {locations.map((location, index) => (
-              <option value={location} key={index}>
-                {location}
+            <option>Activity</option>
+            {activities.map((activity, index) => (
+              <option value={activity} key={index}>
+                {activity}
               </option>
             ))}
           </select>
         </div>
         <div className="row">
           <select>
-            <option>Location</option>
-            {locations.map((location, index) => (
-              <option value={location} key={index}>
-                {location}
+            <option>Grade</option>
+            {grades.map((grade, index) => (
+              <option value={grade} key={index}>
+                {grade}
               </option>
             ))}
           </select>
