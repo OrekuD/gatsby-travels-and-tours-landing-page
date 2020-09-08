@@ -17,9 +17,9 @@ export const ChevronLeft = ({ size, color }: Props) => (
       transform="translate(5 10.412) rotate(-180)"
       fill="none"
       stroke={color}
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 )
@@ -43,7 +43,7 @@ export const Logo = ({ size }: Props) => (
         transform="translate(204 58)"
         fill="#fb8f1d"
         stroke="#fff"
-        stroke-width="3"
+        strokeWidth="3"
       >
         <circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
         <circle cx="7.5" cy="7.5" r="9" fill="none" />
@@ -158,9 +158,9 @@ export const ChevronRight = ({ size, color }: Props) => (
       transform="translate(1.412 1.412)"
       fill="none"
       stroke={color}
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-linejoin="round"
-      stroke-width="2"
+      strokeWidth="2"
     />
   </svg>
 )
