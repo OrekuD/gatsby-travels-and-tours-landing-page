@@ -6,6 +6,7 @@ import {
   Trending,
   FeaturedDestinations,
   Testimonials,
+  Footer,
 } from "../components"
 
 const Home = () => (
@@ -17,6 +18,7 @@ const Home = () => (
       <Testimonials />
       <Trending />
     </div>
+    <Footer />
   </>
 )
 

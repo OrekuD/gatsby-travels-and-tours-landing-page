@@ -2,10 +2,6 @@
 
 .trending {
   margin: 60px 0;
-  .title {
-    font-weight: 600;
-    font-size: 20px;
-  }
 
   .stories {
     display: flex;
@@ -13,7 +9,7 @@
 
     .story-wrapper {
       padding: 10px;
-      margin: 20px auto;
+      margin: 5px auto;
 
       .story {
         width: 260px;

@@ -79,3 +79,12 @@ button {
     cursor: pointer;
   }
 }
+
+.title {
+  font-size: 30px;
+
+  @media (max-width: 640px) {
+    text-align: center;
+    font-size: 26px;
+  }
+}
