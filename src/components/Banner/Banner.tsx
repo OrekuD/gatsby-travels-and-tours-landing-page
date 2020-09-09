@@ -5,6 +5,7 @@ import { Circle, Plus } from "../../svgs"
 const locations = ["Geneva", "Milan", "Paris"]
 const activities = ["Travelling", "Swimming", "Outdoor games"]
 const grades = ["Grade 1", "Grade 2", "Grade 3"]
+const regions = ["Region 1", "Region 2", "Region 3"]
 
 const Banner = () => (
   <div className="banner">
@@ -18,7 +19,7 @@ const Banner = () => (
       <div className="plus">
         <Plus size={20} />
       </div>
-      <p className="title">Explore</p>
+      <p className="label">Explore</p>
       <p className="subtitle">Holiday finder</p>
       <div className="line" />
       <div className="select-inputs">
@@ -50,10 +51,10 @@ const Banner = () => (
             ))}
           </select>
           <select>
-            <option>Location</option>
-            {locations.map((location, index) => (
-              <option value={location} key={index}>
-                {location}
+            <option>Regions</option>
+            {regions.map((region, index) => (
+              <option value={region} key={index}>
+                {region}
               </option>
             ))}
           </select>

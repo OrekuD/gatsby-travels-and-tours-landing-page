@@ -15,7 +15,7 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-weight: 600;
+  font-family: PoppinsBold;
   font-size: 14px;
   transition: 0.4s ease all;
 
@@ -55,11 +55,13 @@ button {
 @font-face {
   font-family: Poppins;
   src: url(./assets/fonts/Poppins-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: PoppinsBold;
   src: url(./assets/fonts/Poppins-SemiBold.ttf);
+  font-display: swap;
 }
 
 .main-btn {

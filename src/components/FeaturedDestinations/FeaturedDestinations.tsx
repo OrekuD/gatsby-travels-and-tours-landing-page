@@ -5,22 +5,22 @@ const destinations = [
   {
     name: "Raja Ampat",
     country: "Indonesia",
-    image: require("../../assets/images/destination-1.png"),
+    image: require("../../assets/images/destination-1.jpg"),
   },
   {
     name: "Fanjingshan",
     country: "China",
-    image: require("../../assets/images/destination-2.png"),
+    image: require("../../assets/images/destination-2.jpg"),
   },
   {
     name: "Vevey",
     country: "Switzerland",
-    image: require("../../assets/images/destination-3.png"),
+    image: require("../../assets/images/destination-3.jpg"),
   },
   {
     name: "Skadar",
     country: "Montegero",
-    image: require("../../assets/images/destination-4.png"),
+    image: require("../../assets/images/destination-4.jpg"),
   },
 ]
 

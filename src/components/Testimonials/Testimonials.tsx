@@ -1,6 +1,6 @@
 import React from "react"
 import "./Testimonials.scss"
-import { Star } from "../../svgs"
+import { Star, Plus, Circle } from "../../svgs"
 
 const Testimonials = () => (
   <div className="testimonials">
@@ -24,6 +24,12 @@ const Testimonials = () => (
       </div>
       <div className="image">
         <img src={require("../../assets/images/testimonial.png")} alt="" />
+        <div className="circle">
+          <Circle size={30} />
+        </div>
+        <div className="plus">
+          <Plus size={30} />
+        </div>
       </div>
     </div>
   </div>

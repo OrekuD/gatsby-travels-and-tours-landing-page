@@ -35,13 +35,13 @@
       }
 
       .name {
-        font-size: 14px;
-        font-weight: 600;
         margin-top: 40px;
+        font-family: PoppinsBold;
       }
 
       .role {
         color: $grey;
+        font-size: 14px;
       }
     }
 
@@ -50,8 +50,29 @@
       width: 360px;
       height: 458px;
       margin-right: auto;
-      overflow: hidden;
+      // overflow: hidden;
       border-radius: 10px;
+
+      .plus {
+        position: absolute;
+        bottom: -20px;
+        left: -15px;
+
+        svg {
+          transform: rotate(8deg);
+        }
+      }
+
+      .circle {
+        position: absolute;
+        top: -12px;
+        right: -12px;
+        z-index: -1;
+
+        svg {
+          transform: rotate(8deg);
+        }
+      }
 
       @media (max-width: 920px) {
         width: 330px;

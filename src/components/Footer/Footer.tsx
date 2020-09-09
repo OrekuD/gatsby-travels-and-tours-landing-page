@@ -39,7 +39,7 @@ const Footer = () => (
       <div className="wrapper">
         <div className="section">
           <Logo size={40} />
-          <p className="title">
+          <p className="advice">
             Plan and book your perfect trip with expert advice, travel tips
             destination information from us
           </p>
